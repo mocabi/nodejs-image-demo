@@ -11,7 +11,8 @@
     "express"
   ],
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": ""
   },
   "dependencies": {
     "express": "^4.16.4"
