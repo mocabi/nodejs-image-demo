@@ -10,7 +10,8 @@ USER node
 
 RUN npm install
 
-COPY --chown=node:node . .
+# COPY --chown=node:node . .
+COPY . .
 
 EXPOSE 8080
 
